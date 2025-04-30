@@ -1,1 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.content {
+    width: 70%;
+    text-align: justify;
+}
+
+.sidebar {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.sidebar img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
 
