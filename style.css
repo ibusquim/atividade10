@@ -12,6 +12,7 @@ header {
 header img {
     max-width: 100%;
     height: auto;
+    border-radius: 10px;  /* Bordas arredondadas para a imagem do cabeçalho */
 }
 
 main {
@@ -35,9 +36,10 @@ main {
 
 .sidebar img {
     width: 100%;
-    max-width: 100px; /* Tamanho máximo ajustado */
+    max-width: 250px; /* Tamanho máximo ajustado */
     height: auto;
-    border-radius: 8px;
+    object-fit: cover;  /* Ajusta a imagem ao contêiner sem distorção */
+    border-radius: 10px;  /* Bordas arredondadas para as imagens da sidebar */
     margin-top: 10px;
 }
 
