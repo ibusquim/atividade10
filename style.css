@@ -35,7 +35,7 @@ main {
 
 .sidebar img {
     width: 100%;
-    max-width: 250px; /* Tamanho máximo ajustado */
+    max-width: 100px; /* Tamanho máximo ajustado */
     height: auto;
     border-radius: 8px;
     margin-top: 10px;
