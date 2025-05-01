@@ -10,9 +10,12 @@ header {
 }
 
 header img {
-    max-width: 100%;
+    width: 80%; /* Reduzido para tornar a imagem principal menor */
+    max-width: 600px;
     height: auto;
-    border-radius: 10px;  /* Bordas arredondadas para a imagem do cabeçalho */
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
 }
 
 main {
@@ -36,10 +39,10 @@ main {
 
 .sidebar img {
     width: 100%;
-    max-width: 250px; /* Tamanho máximo ajustado */
+    max-width: 180px; /* Reduzido para deixar as imagens da sidebar menores */
     height: auto;
-    object-fit: cover;  /* Ajusta a imagem ao contêiner sem distorção */
-    border-radius: 10px;  /* Bordas arredondadas para as imagens da sidebar */
+    object-fit: cover;
+    border-radius: 10px;  /* Bordas arredondadas */
     margin-top: 10px;
 }
 
@@ -51,5 +54,3 @@ img {
     display: block;
     margin: 0 auto;
 }
-
-
