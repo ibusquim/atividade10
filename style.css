@@ -1,56 +1,34 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+/* Container centralizado */
+/* Container centralizado */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
 }
 
-header {
-    text-align: center;
-    padding: 20px;
+/* Bloco com texto e imagem lado a lado */
+.bloco-destaque {
+  display: flex;
+  align-items: center; /* Alinha o texto e a imagem verticalmente */
+  gap: 20px; /* Espaçamento entre o texto e a imagem */
+  margin-bottom: 40px;
+  justify-content: flex-start; /* Alinha à esquerda */
 }
 
-header img {
-    width: 80%; /* Reduzido para tornar a imagem principal menor */
-    max-width: 600px;
-    height: auto;
-    border-radius: 10px;
-    display: block;
-    margin: 0 auto;
+/* Estilização do primeiro parágrafo (Texto 1) */
+.texto-destaque {
+  color: #2C3E50; /* Cor forte para o texto (um tom de azul escuro) */
+  font-family: 'Arial', sans-serif; /* Fonte Arial */
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 500px; /* Limita a largura do parágrafo */
+  text-align: justify; /* Justifica o texto */
 }
 
-main {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.content {
-    width: 70%;
-    text-align: justify;
-}
-
-.sidebar {
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: flex-end;
-}
-
-.sidebar img {
-    width: 100%;
-    max-width: 180px; /* Reduzido para deixar as imagens da sidebar menores */
-    height: auto;
-    object-fit: cover;
-    border-radius: 10px;  /* Bordas arredondadas */
-    margin-top: 10px;
-}
-
-.sidebar img:first-child {
-    margin-top: 0;
-}
-
-img {
-    display: block;
-    margin: 0 auto;
+/* Estilização da primeira imagem */
+.imagem-destaque {
+  width: 350px; /* Aumenta o tamanho da imagem */
+  height: auto;
+  border-radius: 8px;
 }
