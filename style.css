@@ -9,30 +9,30 @@
 /* Bloco com texto e imagem lado a lado */
 .bloco-destaque {
   display: flex;
-  align-items: center; /* Alinha o texto e a imagem verticalmente */
-  gap: 20px; /* Espaçamento entre o texto e a imagem */
+  align-items: center;       /* Alinha verticalmente */
+  gap: 20px;                 /* Espaço entre texto e imagem */
   margin-bottom: 40px;
-  justify-content: flex-start; /* Alinha à esquerda */
+  justify-content: flex-start; /* Alinha itens à esquerda */
 }
 
-/* Para o bloco onde a imagem deve ficar à esquerda do texto */
+/* Inverte a ordem do flex para imagem à esquerda do texto */
 .bloco-destaque.esquerda {
-  flex-direction: row-reverse; /* Inverte a ordem: imagem à esquerda, texto à direita */
+  flex-direction: row-reverse;
 }
 
-/* Estilização do parágrafo */
+/* Estilização do texto */
 .texto-destaque {
   color: #2C3E50;
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 18px;
   line-height: 1.6;
   max-width: 500px;
   text-align: justify;
 }
 
-/* Estilização da imagem */
+/* Estilização das imagens */
 .imagem-destaque {
-  width: 350px; /* Tamanho da imagem */
+  width: 350px;
   height: auto;
   border-radius: 8px;
 }
