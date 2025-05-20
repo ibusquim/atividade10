@@ -31,12 +31,12 @@
   width: 350px; /* Aumenta o tamanho da imagem */
   height: auto;
   border-radius: 8px;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .imagem-destaque.esquerda{
   width: 350px; /* Aumenta o tamanho da imagem */
   height: auto;
   border-radius: 8px;
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
