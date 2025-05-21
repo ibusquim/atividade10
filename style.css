@@ -4,33 +4,25 @@
   margin: 0 auto;
   padding: 20px;
   font-family: Arial, sans-serif;
+  text-align: center;
 }
 
-/* Bloco com texto e imagem lado a lado */
-.bloco-destaque {
-  display: flex;
-  align-items: center;       /* Alinha verticalmente */
-  gap: 20px;                 /* Espaço entre texto e imagem */
-  margin-bottom: 40px;
-  justify-content: flex-start; /* Alinha itens à esquerda */
-}
-
-/* Inverte a ordem do flex para imagem à esquerda do texto */
-.bloco-destaque.esquerda {
-  flex-direction: row-reverse;
-}
-
-/* Estilização do texto */
-.texto-destaque {
+/* Estilização do título */
+h1 {
   color: #2C3E50;
-  font-family: Arial, sans-serif;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Estilização do parágrafo */
+p {
+  color: #34495E;
   font-size: 18px;
   line-height: 1.6;
-  max-width: 500px;
-  text-align: justify;
+  margin-bottom: 30px;
 }
 
-/* Estilização das imagens */
+/* Estilização da imagem */
 .imagem-destaque {
   width: 350px;
   height: auto;
