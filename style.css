@@ -1,22 +1,48 @@
-
-
-.bloco-destaque {
-    display: flex
-;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 40px;
-    justify-content: flex-start;
-}
-
-section {
-    display: block;
-    unicode-bidi: isolate;
-}
-
+/* Container centralizado */
 .container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  color: #2C3E50;
+  margin-bottom: 40px;
+}
+
+/* Blocos com imagem e texto lado a lado */
+.bloco-destaque {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+/* Primeiro bloco: imagem à esquerda, texto à direita */
+.bloco-destaque:nth-of-type(1) {
+  flex-direction: row;
+}
+
+/* Segundo bloco: imagem à direita, texto à esquerda */
+.bloco-destaque:nth-of-type(2) {
+  flex-direction: row-reverse;
+}
+
+/* Texto */
+.texto-destaque {
+  color: #2C3E50;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 500px;
+  text-align: justify;
+}
+
+/* Imagem */
+.imagem-destaque {
+  width: 350px;
+  height: auto;
+  border-radius: 8px;
 }
